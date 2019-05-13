@@ -9,3 +9,6 @@ In a command prompt:
 * Instal numpy: pip install numpy
 * Instal matplotlib: pip install numpy
 
+Next:
+* https://www.tutorialspoint.com/python/python_basic_syntax.htm
+* https://matplotlib.org/users/image_tutorial.html
