@@ -22,3 +22,5 @@ fig, ax = plt.subplots()
 im = ax.imshow(data, interpolation='none')
 ax.format_coord = Formatter(im)
 plt.show()
+
+print("Now change line 16 to see other parts of the image")

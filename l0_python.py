@@ -1,10 +1,16 @@
 
+
 msg = "Python is an interpreted, high-level, general-purpose programming language.\n"
 msg += "It was created by Guido van Rossum and first released in 1991.  "
 msg += "Python's design philosophy emphasizes code readability with its notable use of significant whitespace.\n"
 msg += "Its language constructs and object-oriented approach aims to help programmers write clear, logical code.\n"
 msg += "Python can be used for small and large-scale projects.\n\n"
 print(msg)
+
+print ("import lets you use python code in other files.")
+print ("python has more than 179,775 projects that you can use to build your program")
+print ("import cv2 includes the Open Computer Vision project (https://opencv.org/) into your python script")
+import cv2
 
 print("The variable msg was created by assigning the string value to it.")
 print("Text stored in a variable is called a string.")
