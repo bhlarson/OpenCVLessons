@@ -15,7 +15,7 @@ Clone the OpenCVLessons project by:
 1. Type:
 ```console
 mkdir \data\git
-cd <c:/data/git> 
+cd \data\git 
 git clone https://github.com/bhlarson/OpenCVLessons.git
 ```
 3. Open the OpenCVLessons folder in visual studio code
