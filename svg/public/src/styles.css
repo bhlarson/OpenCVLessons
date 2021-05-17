@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    /*background-image: url("img/Background.svg");*/
+  }
+  
+  pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+  }
+  
+  .food {
+    animation-name: eat;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    animation-timing-function: ease;
+  }
+  @keyframes eat {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(-15px, 15px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
